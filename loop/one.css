@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#boxes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    font-family: cursive;
+    font-family: 16px;
+    padding: 0px 20px;
+} 
+
+#boxes, h1{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.box{
+    /* height: 200px;
+    width: 200px; */
+    border: 1px solid red;
+    text-align: center;
+    /* margin: auto auto; */
+}
+.c-box{
+    height: 100px;
+    width: 200px;
+    background-color: orange;
+    margin: auto;
+}
